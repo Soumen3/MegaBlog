@@ -7,6 +7,7 @@ import { Provider } from 'react-redux'
 import store from './store/store.js'
 import { createBrowserRouter } from 'react-router-dom'
 import { AuthLayout, Login } from './components/index.js'
+import LoadingBar from 'react-top-loading-bar'
 
 
 import Home from './pages/Home.jsx'

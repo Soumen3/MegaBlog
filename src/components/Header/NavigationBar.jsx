@@ -1,8 +1,7 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import React from 'react'
-import {LogoutBtn } from '../index'
-
+import {LogoutBtn, Logo } from '../index'
 import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 
@@ -65,11 +64,7 @@ export default function NavigationBar() {
                         </div>
                         <div className="flex flex-1 items-center justify-between  sm:items-stretch ">
                             <div className="flex flex-shrink-0 items-center">
-                                <img
-                                    className="h-10 w-15"
-                                    src="https://images.pexels.com/photos/19652440/pexels-photo-19652440/free-photo-of-logo.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                    alt="Your Company"
-                                />
+                                <Logo  />
                             </div>
                             <div className="hidden sm:ml-6 sm:block">
                                 <div className="flex space-x-4">
